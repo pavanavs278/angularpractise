@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NewcourseFormComponent } from './newcourse-form/newcourse-form.component';
+import { PasswordChangeComponent } from './password-change/password-change.component';
 @NgModule({
   declarations: [
     AppComponent,
     SignupFormComponent,
-    NewcourseFormComponent
+    NewcourseFormComponent,
+    PasswordChangeComponent
    
   ],
   imports: [
